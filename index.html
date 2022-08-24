@@ -7,7 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Registro de empleados</h1>
+        <h2>
+     Por favor, complete todos los campos
+        </h2>
+        <form action="" id="idForm">
+            <label for="nomb_ap" class="formcontact" >
+                nombre y apellido</label>
+            <input type="text" class="formcontact" id="inputName" required>
+
+            <label for="mail" class="formcontact">
+                Mail</label>
+            <input type="email" class="formcontact" id="inputMail" required>
+            
+            <label for="observaciones" class="formcontact" >observaciones</label>
+            <textarea name="observaciones" class="formcontact" id="inputObs" cols="30" rows="10" ></textarea>
+            
+            <input type="submit" value="enviar" class="formcontact" id="btnSub">
+            
+            <input type="reset" value="borrar">
+        </form>
+
+    </main>
+
+
     <script src="./js/script.js"></script>
 
 
